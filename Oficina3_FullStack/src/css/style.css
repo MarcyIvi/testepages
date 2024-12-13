@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(4, 0, 0);
+    background-image: url('../img/japao-89-cat.jpg');
+    background-repeat: no-repeat;
+    background-size: 112%;
+    
+    }
+
+.navegação{
+    background-color: rgb(138, 27, 56);
+
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    justify-content: center;
+    gap: 60px;
+
+
+}
+
+.navegação a{
+    color: rgb(255, 255, 255);
+    text-decoration: wavy;
+    transition: transform 0.3s ease, color 0.3s ease;
+    
+}
+.navegação a:hover {
+    color: rgb(45, 222, 225) ;
+    transition: transform scale(0.6);
+    
+}
+
+
+.bemvindo{
+    img{
+
+        height: auto;
+        width: 40%;
+        margin-left:400px;
+        margin-right: 500px 
+
+    };
+}
+
+.tradicaoecultura{
+    img{
+        display: inline-block; 
+        margin: 0 5px;          
+        width: 30%;              
+        height: auto;            
+        
+        margin-left: 160px;
+    };
+
+}
+
+.naturezaepaisagem{
+    
+    img{
+        display: inline-block; 
+        margin: 0 5px;          
+        width: 30%;              
+        height: auto;            
+        
+        margin-left: 160px;
+    };
+}
+#Japão{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    text-align: center;
+
+    height: 460px;
+    width: auto;
+    color: rgba(255, 255, 255, 0.892);
+    font-size: 500%;
+
+    padding-top: 60px;
+    padding-left: 55px;
+    font-style: oblique;
+    font-family: 'Times New Roman';
+    text-shadow: 3px 3px 5px rgba(255, 0, 0, 0.5);
+}   
+
+.pag_texto{
+    h2{
+        font-size: xx-large;
+        color: rgb(247, 182, 182);
+    }
+
+    p{
+        color: rgb(255, 255, 255);
+        font-size: larger;
+        margin-right: 2%;
+        text-align: justify;
+    }
+    
+    .comida{
+ 
+        h3{
+            color:  rgb(247, 182, 182);
+            font-size: x-large;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        .imagem1{
+            
+            display: inline-block; 
+            margin: 0 10px;          
+            width: 20%;              
+            height: auto;            
+            
+            margin-left: 500px;
+            margin-right: 500px;
+        }   
+
+        .imagem2{
+            
+            display: inline-block; 
+            margin: 0 5px;          
+            width: 20%;              
+            height: auto;            
+            
+            margin-left: 210px;
+        }   
+
+        #dimensao{
+            width: 32%;
+            height: auto;
+        }
+        .imagem3{
+            
+            display: inline-block; 
+            margin: 0 10px;          
+            width: 20%;              
+            height: auto;            
+            
+            margin-left: 90px;
+        }   
+    }
+}
+
+.cidades{
+    img{
+        display: flex; 
+        margin: 0 5px;          
+        width: 30%;              
+        height: auto;            
+        margin-left: 75px;
+
+        border-radius: 10px;
+    }
+}
+
+.Menu {
+    margin: 0;
+    padding: 0;
+}
+
+.Menu h1{
+        padding-top: 10px;
+        font-size: 50px;
+        color:  rgb(255, 255, 255) ;
+        text-align: center;
+        font-family: Arial;
+
+        text-shadow: 0px 0px 10px rgba(249, 117, 185, 0.929);
+}
+
+.Menu img{
+
+    display: inline-block; 
+    margin: 0 5px;          
+    width: 30%;              
+    height: auto;            
+    margin-left: 25px;
+    border-radius: 5%; 
+    transition: transform 0.3s ease;
+    
+}
+
+.Menu{
+    background-color: rgb(138, 27, 56);
+}
+
+.Menu a:hover img{
+    transform: scale(0.9);
+
+}
+

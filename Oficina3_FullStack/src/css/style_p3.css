@@ -1,0 +1,84 @@
+body {
+
+    background-color: rgb(35, 6, 93);
+    background-image: url('../img/tokyooooooooooooo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    }
+
+h2{
+    font-size: xx-large;
+    color: rgb(255, 132, 0);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+#Tokyo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 90vh;          
+    margin: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.892);
+    font-size: 450%;
+    font-style: oblique;
+    font-family: 'Times New Roman';
+    text-shadow: 3px 3px 5px rgba(255, 52, 184, 0.271);
+}   
+
+img{
+    display: inline-block; 
+    margin: 0 5px;          
+    width: 20%;              
+    height: auto;            
+    
+    margin-left: 200px;
+}
+
+.Shibuya{
+    width: 25%;              
+    height: auto;  
+}
+
+.Menu {
+    margin: 0;
+    padding: 0;
+}
+
+.Menu h1{
+        padding-top: 10px;
+        font-size: 50px;
+        color:  rgb(255, 255, 255) ;
+        text-align: center;
+        font-family: Arial;
+
+        text-shadow: 0px 0px 10px rgba(247, 244, 246, 0.929);
+}
+
+.Menu img{
+
+    display: inline-block; 
+    margin: 0 5px;          
+    width: 30%;              
+    height: auto;            
+    margin-left: 25px;
+    border-radius: 5%; 
+    transition: transform 0.3s ease;
+    
+}
+
+.Menu{
+    background-color: rgb(23, 4, 62);
+}
+
+.Menu a:hover img{
+    transform: scale(0.9);
+
+}
